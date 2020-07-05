@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hlenglish/ui/home/home.dart';
+import 'package:hlenglish/view/ui/home/home.dart';
 
 void main() => runApp(MyApp());
 

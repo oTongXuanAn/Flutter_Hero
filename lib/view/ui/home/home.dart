@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hlenglish/ui/home/pageone/pageone.dart';
+import 'package:hlenglish/view/ui/home/pageThree/PageThree.dart';
+import 'package:hlenglish/view/ui/home/pageone/pageone.dart';
+import 'package:hlenglish/view/ui/home/pagetwo/pagetwo.dart';
+
 
 class TabLayoutDemo extends StatelessWidget {
   @override
@@ -14,11 +17,13 @@ class TabLayoutDemo extends StatelessWidget {
             children: [
               new Container(
                 color: Colors.yellow,
-                  child: PageOne(),
+                  child: PlayoutExample(),
               ),
-              new Container(color: Colors.orange,),
+              new Container(color: Colors.orange,
+              child: PageTwo(),),
               new Container(
                 color: Colors.lightGreen,
+                child: GetChuckCategories(),
               ),
               new Container(
                 color: Colors.red,
