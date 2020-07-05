@@ -21,7 +21,7 @@ class VideoPlayout extends StatefulWidget {
 
 class _VideoPlayoutState extends State<VideoPlayout>
     with PlayerObserver, MultiAudioSupport {
-  final String _url = "https://cdna.streamgates.net/Radio_CDN/kbm/playlist.m3u8";
+  final String _url = "";
   List<HLSManifestLanguage> _hlsLanguages = List<HLSManifestLanguage>();
 
   @override
